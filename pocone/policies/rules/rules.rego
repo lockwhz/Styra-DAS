@@ -52,12 +52,9 @@ check_is_permited {
     some x ;acl[x]
 
     a := x == user
-    a == true
-    
+
     b := acl[user][_].resource == path
-    b == true
     
     c := acl[user][_][_].action == action
-    c == true
-
+    
 }
