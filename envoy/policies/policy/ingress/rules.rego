@@ -8,8 +8,3 @@ allow {
   input.attributes.request.http.method == "GET"
   input.parsed_path = ["finance", "salary", username]
 }
-
-allow {
-  input.attributes.request.http.method == "GET"
-  input.parsed_path = ["get", "test"]
-}
