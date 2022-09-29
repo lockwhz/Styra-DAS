@@ -8,7 +8,7 @@ permissions := {
     "admin"    :  	  [{"action": "POST"},
     				   {"action": "GET"},
                        {"action": "DELETE"},
-                       {"action": "PUT"}],                      
+                       {"action": "PUTT"}],                      
     "engineer":       [{"action": "POST"},
     				   {"action": "GET"},
                        {"action": "PUT"}],
