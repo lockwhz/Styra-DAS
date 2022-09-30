@@ -8,3 +8,10 @@ allow {
   input.attributes.request.http.method == "GET"
   input.parsed_path = ["finance", "salary", username]
 }
+
+# allow /hr/dashboard ingress
+allow {
+  input.attributes.request.http.method == "GET"
+  input.parsed_path = ["ul","dashboard"]
+}
+
