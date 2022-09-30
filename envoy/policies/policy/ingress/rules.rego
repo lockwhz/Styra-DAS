@@ -12,6 +12,6 @@ allow {
 # allow /hr/dashboard ingress
 allow {
   input.attributes.request.http.method == "GET"
-  input.parsed_path = ["hr","dashboard"]
+  input.parsed_path = ["ol","dashboard"]
 }
 
